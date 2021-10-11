@@ -7,3 +7,10 @@
         Veti primi: 'cmi', 5
         Veti printa: 'cmicmicmicmicmi'
 """
+str = input("Introduceti sirul de caractere:")
+x = input("Introduceti nr intreg:")
+x = int(x)
+output = ''
+for i in range(x):
+    output += str
+print(output)
