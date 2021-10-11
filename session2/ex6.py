@@ -16,5 +16,8 @@ print(d1)
 # Schimbam valoarea de la cheia 2, din 'CMI2' in 'CMI'
 d1[2] = 'CMI'
 
+# Adaugam perechea noua (key, value)=(3, 'CMI3')
+d1[3] = 'CMI3'
+
 # Afisam dictionarul dupa schimbare
 print(d1)
