@@ -6,3 +6,5 @@
         Veti primi: 'cmi'
         Veti printa: ('c', 'm', 'i')
 """
+s = input("Introduceti sirul de caractere:")
+print(tuple(s))
