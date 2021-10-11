@@ -6,3 +6,5 @@
         Veti primi: 'cmi'
         Veti printa: 'cmicmicmi'
 """
+x = input("Introduceti sirul de caractere:")
+print(x + x + x)
