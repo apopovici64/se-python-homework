@@ -6,3 +6,8 @@
         Veti primi: 2 si 3
         Veti printa: 8
 """
+x = input("Introduceti primul numar:")
+y = input("Introduceti al doilea numar:")
+x = int(x)
+y = int(y)
+print (x**y)
