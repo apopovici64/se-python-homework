@@ -9,5 +9,9 @@ d1 = {
     2: 'CMI2'
 }
 
-# Afisam tate cheile dictionarului d1, folosind metoda keys()
-print(d1.keys())
+# Afisam toate cheile dictionarului d1, folosind metoda keys()
+# print(d1.keys())
+
+# Afisam toate valorile dictionarului d1:
+for  value in d1.values():
+    print(value)
