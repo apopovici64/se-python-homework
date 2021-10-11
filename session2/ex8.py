@@ -8,5 +8,9 @@
 x = input()
 
 # Daca valorea care vine de la tastatura este 'cmi', vom afisa 'OK'
-if x == 'da':
+if x == 'cmi':
     print('OK')
+
+# Daca valorea care vine de la tastatura nu este 'cmi', vom afisa 'NOT OK'
+if x != 'cmi':
+    print('NOT OK')
