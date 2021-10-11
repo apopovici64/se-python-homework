@@ -12,3 +12,19 @@ l2 = [5, 6, 7]
 # Pentru a vedea rezultatul, rulati acest script.
 print(l1)
 print(l2)
+
+#Concatenare 1 (folosind "+")
+l3=l1+l2
+print(f"Concatenare 1:{l3}")
+
+#Concatenare 2 (folosind "append")
+for i in l2:
+    l1.append(i)
+print(f"Concatenare 2:{l1}")
+
+#Concatenare 3 (folosind "*")
+l1 = [1, 2, 3, 4]
+l2 = [5, 6, 7]
+l4 = [*l1, *l2]
+print(f"Concatenare 3:{l4}")
+
