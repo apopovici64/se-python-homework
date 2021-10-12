@@ -16,3 +16,14 @@
             2: 'i'
         }
 """
+s = input("Introduceti sirul de caractere:")
+x = input("Introduceti un numar intreg egal cu numarul de caractere din sir:")
+l1 = []
+l2 = []
+for i in range(x):
+    l1.append(i)
+l2[:0] = s
+for i in range(x):
+    d = dict([(l1[i], l2[i])])
+print(d)
+
