@@ -14,3 +14,10 @@
         Veti primi: 1232
         Veti printa: False
 """
+x = input("Introduceti un numar intreg:")
+x = str(x)
+x1 = str(x)
+if x1[::0] == x:
+    print("x Palindrom: True")
+else:
+    print("x Palindrom: False")
