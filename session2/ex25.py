@@ -9,3 +9,12 @@
         Veti printa prima data: [1, 3, 4, 5, 5]
         Veti prina a doua oara: {1, 3, 4, 5}
 """
+l=[]
+set={}
+x = input("Introduceti un numar intreg:")
+x = str(x)
+while x != 'exit':
+    l.append(x)
+    set.add(x)
+print(l)
+print(set)
