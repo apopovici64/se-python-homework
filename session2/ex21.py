@@ -10,3 +10,6 @@
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
+s = input("Introduceti sirul de caractere:")
+while s != 'exit':
+    print(s[0:len(s-1)])
