@@ -13,3 +13,10 @@
         False
         False
 """
+l=[]
+x = input("Introduceti un numar intreg:")
+while str(x) != 'exit':
+    if x % 2 == 0:
+        print(True)
+    if x % 2 == 1:
+        print(False)
