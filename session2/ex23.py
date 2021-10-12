@@ -14,3 +14,9 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+s = input("Introduceti sirul de caractere:")
+s1 = s[::-1]
+if s1 == s:
+    print("Palindrom: True")
+else:
+    print("Palindrom: False")
