@@ -6,3 +6,8 @@
         Veti primi: 'center'
         Veti printa: 'CeNtEr'
 """
+s = input("Introduceti sirul de caractere:")
+for i in len(s):
+    if i % 2 == 1:
+        s[i].upper()
+print(s)
