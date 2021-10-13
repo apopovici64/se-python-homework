@@ -6,3 +6,8 @@
         Veti primi: 5
         Veti printa: 15
 """
+x = input("Introduceti un numar intreg:")
+s = 0
+for i in range(x+1):
+    s += i
+print(s)
