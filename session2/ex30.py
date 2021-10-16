@@ -31,7 +31,7 @@ for char in x:
         pos = close_list.index(char) # identificam caracterul de inchidere in lista de inchideri corespunzatoare
         # testam daca avem inchidere corecta cu ultimul caracter de deschidere existent in stiva
         if ((len(stack()>0)) and (open_list[pos]==stack[len(stack)-1])):
-            stack.pop() # extragem ultima pereche inchisa corect
+            stack.pop() # indepartam ultima pereche inchisa corect
         else:
             print(False)
 print(True) # daca am golit intreaga stiva anterior incarcata cu perechi corect inchise, inseamna ca am avut o secventa inchisa corect
