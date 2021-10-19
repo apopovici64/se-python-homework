@@ -13,10 +13,11 @@ x = input("Introduceti sirul de caractere:")
 x_lowercase = x.lower()
 total_vowel_count = 0
 total_consonant_count = 0
+
 for vowel in 'aeiou': #consideram vocalele din limba engleza
     count_v = x_lowercase.count(vowel)
     total_vowel_count += count_v
-ctotal_consonant_count = len(x) - total_vowel_count
+total_consonant_count = len(x) - total_vowel_count
 
 print(total_vowel_count)
 print(total_consonant_count)
