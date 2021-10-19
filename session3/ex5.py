@@ -11,3 +11,9 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+def  add_1_to_list(list1):
+    return [int(x) + 1 for x in list1] # folosim conversia fiecarui caracter din lista  la Integer
+
+list1 = input('Introduceti un set de numare intregi:')
+list1 = list(list1) # convertim setul primit (ca string) intr-o lista de caractere
+print(add_1_to_list(list1))
