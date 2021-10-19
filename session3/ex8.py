@@ -18,6 +18,7 @@ def dec(func):
 
 @dec
 def f():
+    print('cmi')
     print('x')
 
 
