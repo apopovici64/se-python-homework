@@ -7,3 +7,8 @@
         - func('aabbcc')
             ---> 'bbccdd'
 """
+def add_1_to_string(str1):
+    return ''.join(chr(ord(char) + 1) for char in str1)
+
+str1 = input('Introduceti un sir de caractere:')
+print(add_1_to_string(str1))
