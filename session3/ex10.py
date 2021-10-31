@@ -13,7 +13,7 @@ def dec(func):
         print('cmi')
         # your code goes here
         func(*args, **kwargs)
-
+        print(kwargs['y'])
     return wrapper
 
 
