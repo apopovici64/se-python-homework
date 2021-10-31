@@ -9,6 +9,7 @@
         Veti primi 5, veti afisa [1, 4, 9, 16]
 """
 x = input()
+x = int(x) # correction: line added on 31/10/21; code tested 31/10/21
 l = []
 if x % 2 == 0:
     for i in range(x):
