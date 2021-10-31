@@ -23,13 +23,14 @@
 import random
 
 def dec(func):
-    def myfunc(x):
-        a = func(x)
-        b = open("output17.data", "a")
-        b.write(f"\n{a}")
-        b.close
+    def wrapper(*args):
+       
+        log_file = open("output17.data", "a")
+        saving_var = f'{func(*args)}'
+        log_file.write(f'\n{saving_var}')
+        log_file.close
 
-    return myfunc
+    return wrapper
 
 
 # decorate me
