@@ -6,8 +6,18 @@
 
     Functia decorata este f.
 """
+def dec(func):
+    def  wrapper():
+        a=func()
+        b = open("output11.data", "a")
+        b.write(a)
+        b.close
+    return wrapper
 
 
 # decorate me
+@dec
 def f():
     return "CMI"
+
+f()
