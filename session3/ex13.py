@@ -4,8 +4,16 @@
     ar fi sa intoarca 'CmI' dupa aplicarea decoratorului.
 
 """
+def dec(func):
+    def wrapper():
+        result = func()
+        result = result[0].upper() + result[1] + result[2].upper()
+        print(result)        
+    return wrapper
 
-
-# decoarate me
+# decorate me
+@dec
 def f():
     return 'cmi'
+
+f()
